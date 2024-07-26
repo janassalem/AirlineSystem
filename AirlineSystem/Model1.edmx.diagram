@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="add5c897b08a47d5aa83a54e20be9744" Name="Diagram1">
+        <EntityTypeShape EntityType="masterModel.ADMIN" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.AIRCRAFT" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.BOOK" Width="1.5" PointX="5.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.CUSTOMER" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.FLIGHT" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.NATIONALITY" Width="1.5" PointX="5.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.MSreplication_options" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_fallback_db" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_fallback_dev" Width="1.5" PointX="7.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_fallback_usg" Width="1.5" PointX="9.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_monitor" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.TICKET" Width="1.5" PointX="9.75" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="masterModel.FK_AIRCRAFT_ADDAIRCRA_ADMIN" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_AIRCRAFT_UPDATEAIR_ADMIN" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_CUSTOMER_UPDATECUS_ADMIN" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_FLIGHT_ADDFLIGHT_ADMIN" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_FLIGHT_UPDATEFLI_ADMIN" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_FLIGHT_USES_AIRCRAFT" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_TICKET_DEPENDS_FLIGHT" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.BOOKED" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.BOOKS" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.CANCEL" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.CHANGE" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.HAS_A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
